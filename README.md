@@ -1,3 +1,43 @@
+# Hangman Game
+
+## Description:
+
+* This project is part of a student project to demonstrate the newly learned skills with React.
+
+## How To Play The Game
+
+* The Computer generates a word or phrase.
+* The Computer draws a number of dashes equivalent to the number of letters in the word.
+* The User try to guess what it is one letter at a time.
+* If the User suggests a letter that occurs in the word, the Computer fills in the blanks with that letter in the right places.
+* Too many incorrect guesses result in loss of the game
+
+## Objective
+
+Guess the word/phrase before your man gets hung!
+
+## Table of content inside the project
+
+* images - Folder that contains a different images of the hangman and a winning and losing picture.
+* words - Folder that contains a text file dictionary with random words in.
+* App.css
+* App.js
+* DisplayGuessWord.js
+* DisplayHangmanImages.js
+* Hangman.js
+* Help.js
+* index.css
+* index.js
+* reportWebVitals.js
+* setupTest.js
+
+## Installation
+
+* Download the repository
+* Open the folder as a project in your EDI
+* Open a new terminal in the folder window
+* Type `npm start` in terminal - more technical instructions below.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -68,3 +108,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+### Author of this project
+
+https://github.com/CarstensMartin
